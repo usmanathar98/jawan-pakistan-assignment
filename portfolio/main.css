@@ -1,0 +1,47 @@
+
+
+
+.container{
+       
+        border-style: solid;
+        height: 1100px;
+        width: 1200px;
+         margin: 50px 50px 50px 50px;
+         padding: 20px;
+         border-radius: 30px;
+         background-color: #09122C; 
+         color:black
+         border-style=dotted;
+         position:relative;
+         text-transform: capitalize;
+         
+         
+        
+        }
+.inline{
+         display:inline-block;
+
+
+}
+
+img{
+        position: absolute;
+        right: 200px;
+}
+.items{
+        width: 1000px;
+        border-style: solid;
+        padding: 25px;
+        margin: 50px;
+        background-color: #D0DDD0; 
+        height: 400px;
+        color:blueviolet;  
+        border-radius: 45px;      
+
+}
+h1{
+        text-align: center;
+}
+
+       
+    
