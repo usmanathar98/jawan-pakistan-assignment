@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+
+}
+body{
+    background-image: url("./assets/home\ pic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    height: 150px;
+    display: flex;
+}
+
+
+.nav-logo{
+padding: 20px;
+   
+}
+.items{
+
+    display: flex;
+    font-size: 3rem;
+      gap: 100px;
+      padding-left: 200px;
+      padding-top: 40px;   
+}
+
+    
+
+
+.items a{
+    text-decoration: none;
+    color: white;
+}
+.para{
+   color: white;
+   padding-left: 200px;
+   font-size: 3rem;        
+}
+.section{
+          display: flex;
+          padding-left: 150px;
+          margin:50px;
+          gap: 180px;
+          
+}
+.sec p{
+    color: white;
+    padding-top: 20px;
+
+}
+.big{
+    font-size: 30px;
+}

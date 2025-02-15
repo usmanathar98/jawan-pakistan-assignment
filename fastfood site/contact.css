@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+body{
+    background-image: url(./assets/burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    height: 150px;
+    display: flex;
+}
+
+
+.nav-logo{
+padding: 20px;
+   
+}
+.items{
+
+    display: flex;
+    font-size: 3rem;
+      gap: 100px;
+      /* justify-content: space-evenly; */
+      padding-left: 200px;
+      padding-top: 40px;   
+}
+
+    
+
+
+.items a{
+    text-decoration: none;
+    color: white;
+}
+.form{
+    color: white;
+    height: 800px;
+    width: 500px;
+    margin: 50px;
+    padding: 20px;
+    font-size: 2rem;
+    display: flex;
+}
+.form input{
+    height: 50px;
+    width: 400px;
+}
+#submit{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    background-color: blueviolet;
+    color: white;
+}
+    .form img{
+        height: 70px;
+        width: 200px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+.loc{
+    margin-left: 200px;
+}
+#order{
+    width: 400px;
+    height: 100px;
+    text-align:justify;
+}
