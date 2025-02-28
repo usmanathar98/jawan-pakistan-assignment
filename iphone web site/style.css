@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 15px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    ;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+                                    /* CONTENT */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url("./apple.jpg");
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+     padding-top: 30px; 
+    
+}
+
+.content h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#con_bt {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(93, 93, 236);
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+#con_pre {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+                                                 /* SECTION */
+.section {
+    background-image: url("./apple2.png");
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: blueviolet;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#lrn {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(93, 93, 236);
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+#buy {
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    color: #ffffff;
+    border: 2px solid white;
+    background: transparent;
+
+}
+
+.sec_1 {
+    background-image: url("./apple3.jpg");
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.sec_1 h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+    padding-top: 20px;
+
+}
+
+.sec_1 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#sec_1lrn {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(93, 93, 236);
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+#sec_1buy {
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    background: transparent;
+    position: absolute;
+}
+
+                                        /* MAIN */
+.main {
+    display: flex;
+    height: 40rem;
+    
+}
+
+.image1 {
+    text-align: center;
+    background-image: url("./macbook.jpg");
+    width: 50vw;
+    height: 40rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+#image1_lrn {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(93, 93, 236);
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+#image1_buy {
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    background: transparent;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.image2 {
+    background-image: url("./watch.jpg");
+    width: 50vw;
+    height: 40rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 10px;
+}
+
+.image2 h1 {
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.image2 h2 {
+    color: #ffffff;
+    padding-top: 20px;
+
+}
+
+                                              /* MAN_1 */
+.man_1 {
+    display: flex;
+    height: 40rem;
+    margin-top: 10px;
+}
+
+.image3 {
+    background-image: url("./image_2.jpg");
+    width: 50vw;
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.image3 h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.image3 img {
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+/* image 3 end */
+.image4 {
+    background-image: url("./image_3.jpg");
+    width: 50vw;
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.image4 img {
+    align-items: center;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.image4 h1 {
+    text-align: center;
+}
+
+/* image 4 END */
+.para {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f7;
+    color: #0000008f;
+}
+
+
+
+.footer {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f7;
+    color: #0000008f;
+}
+
+ul {
+    list-style: none;
+}
