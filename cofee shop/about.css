@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+   
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./images/cup.png");
+    background-color:rgb(17, 43, 43);
+    
+}
+.container nav{
+    height: 60px;
+    justify-content:space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: #d78783;
+}
+nav a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.content{
+    /* align-items: center; */
+    display: flex;
+    color: burlywood;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.btn_1{
+    display: flex;
+    gap: 20px;
+}
+.btn_1 button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #d78783;
+    background: transparent;
+}
+.content h1{
+    font-size: 60px;
+}
+.content h2{
+    font-size: 30px;
+}
+.content p{
+    font-size: 20px;
+}
