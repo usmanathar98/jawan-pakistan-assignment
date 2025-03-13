@@ -22,14 +22,8 @@
     align-items: center;
     display: flex;
 }
-
-nav img {
-    border: 2px solid red;
-}
-
 nav a {
     text-decoration: none;
-    border: 2px solid red;
     color: burlywood;
 }
 
