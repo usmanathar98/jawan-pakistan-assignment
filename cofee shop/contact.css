@@ -30,3 +30,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
+@media screen and (max-width:768px) {
+     nav a{display: none;}
+    
+}
