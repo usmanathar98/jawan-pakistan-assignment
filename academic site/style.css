@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* top */
+.top {
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: space-between;
+    height: 50px;
+    /* border: 2px solid blue; */
+    padding-left: 20px;
+    background-color: #f8f9f4;
+   
+}
+
+.items {
+    margin-left: 100px;
+}
+
+.items a {
+    text-decoration: none;
+    color: #808080;
+}
+
+/* login */
+.login {
+    margin-right: 20px;
+    padding: 20px;
+}
+.login a{
+    text-decoration: none;
+    color: #808080;
+}
+
+/* header */
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 5px solid blue; */
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #51be78;
+}
+
+.head_item {
+    /* margin-bottom: 50px; */
+    margin-top: 20px;
+}
+
+.icons {
+    margin-right: 100px;
+    margin-top: 20px;
+    color: #51be78;
+}
+
+/* content */
+.content {
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    text-align: center;
+}
+
+/* content_2 */
+.content_2{
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* para */
+.para {
+    height: 300px;
+    width: 300px;
+    border: 1px dotted gray;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* button */
+.button {
+    height: 40px;
+    width: 150px;
+    background-color:burlywood;
+}
+
+
+.carousel-item {
+    position: relative;
+}
+.carousel-item img{
+    opacity: .7;
+}
+
+.slider-p {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 20vw;
+    left: 20vw;
+}
+/* container_1 */
+.container_1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 400px;
+    gap: 100px;
+    /* padding-left: 100px; */
+    padding-top: 50px;
+    background-color:#183661;
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.con_para{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    color: #7697c6;
+    padding-top: 50px;
+}
+/* customers */
+.cus_h3{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.custumer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cus{
+    width: 300px;
+
+}
+.container_3{
+    background: url('./images/bg_1.jpg') no-repeat center center/cover;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+.subscribe-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer {
+    background: #1b2a41;
+    padding: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer div {
+    max-width: 300px;
+}
+.footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+
+
+@media screen and (max-width:990px){
+           .items{
+            display: none;
+           }
+           .top{
+            justify-content: end;
+           }
+           .icons{
+            margin-right: 10px;
+           }
+
+           .logo{
+            margin-left: 20px;
+           }
+           .logo a{
+            display: none;
+           }
+
+           .container_1{
+            flex-direction: column;
+            align-items: center;
+            height: 90vh;
+           }
+           .con_para{
+            width: 100%;
+           }
+
+           .cus_h3{
+            margin: 0;
+            text-align: center;
+           }
+           .custumer{
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+           }
+
+           .subscribe-box input{
+            margin-bottom: 10px;
+           }
+    
+}
