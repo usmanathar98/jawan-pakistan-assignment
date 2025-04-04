@@ -291,3 +291,13 @@
 ul {
     list-style: none;
 }
+
+@media screen and (max-width:945px) {
+   nav {
+        gap:0
+    }
+.content{
+    width:50vw;
+}
+    
+}
